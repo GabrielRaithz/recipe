@@ -4,9 +4,9 @@
 -> Recipe contains Ingredients
 
 
-- Create list of ingredients
+# Create list of ingredients
 
--- URL: http://localhost:8080/api/ingredient/list
+## URL: http://localhost:8080/api/ingredient/list
 
 Ingredient JSON example for creation:
 
@@ -23,9 +23,9 @@ Ingredient JSON example for creation:
 
 -> Once we have ingredients created we can create a recipe
 
-- Recipe JSON example:
+# Recipe JSON example:
 
--- URL: http://localhost:8080/api/recipe
+## URL: http://localhost:8080/api/recipe
 
 {
     "name": "beans cooked",
@@ -51,11 +51,12 @@ Ingredient JSON example for creation:
 
 
 -> For the search we have the following parameters
-URL: http://localhost:8080/api/recipe/search
-Query parameters:
-    numberOfServings: number
-    isVegetarian: boolean
-    includeIngredientsId: [ids]
-    excludeIngredientsId: [ids]
-    instructions: String
+
+## URL: http://localhost:8080/api/recipe/search
+### Query parameters:
+- numberOfServings: number
+- isVegetarian: boolean
+- includeIngredientsId: [ids]
+- excludeIngredientsId: [ids]
+-instructions: String
 
