@@ -10,7 +10,7 @@
 
 Ingredient JSON example for creation:
 
-```
+```json
 [{
     "name": "rice",
     "measurementMetric": "GM",
@@ -28,7 +28,8 @@ Ingredient JSON example for creation:
 
 ## URL: http://localhost:8080/api/recipe
 
-```{
+```json
+{
     "name": "beans cooked",
     "isFavorite": true,
     "servingsQuantity": 4,
