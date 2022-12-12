@@ -20,7 +20,7 @@ Ingredient JSON example for creation:
     "name": "beans",
     "measurementMetric": "GM",
     "isMeat": false
-}]```
+}]
 
 -> Once we have ingredients created we can create a recipe
 
@@ -49,7 +49,7 @@ Ingredient JSON example for creation:
     ],
     "instructions": "boil and fry",
     "vegetarian": true
-}```
+}
 
 
 -> For the search we have the following parameters
