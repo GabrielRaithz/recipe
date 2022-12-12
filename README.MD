@@ -10,7 +10,7 @@
 
 Ingredient JSON example for creation:
 
-[{
+```[{
     "name": "rice",
     "measurementMetric": "GM",
     "isMeat": false
@@ -19,7 +19,7 @@ Ingredient JSON example for creation:
     "name": "beans",
     "measurementMetric": "GM",
     "isMeat": false
-}]
+}]```
 
 -> Once we have ingredients created we can create a recipe
 
@@ -27,7 +27,7 @@ Ingredient JSON example for creation:
 
 ## URL: http://localhost:8080/api/recipe
 
-{
+```{
     "name": "beans cooked",
     "isFavorite": true,
     "servingsQuantity": 4,
@@ -47,7 +47,7 @@ Ingredient JSON example for creation:
     ],
     "instructions": "boil and fry",
     "vegetarian": true
-}
+}```
 
 
 -> For the search we have the following parameters
