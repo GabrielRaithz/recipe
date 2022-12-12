@@ -47,7 +47,7 @@ Ingredient JSON example for creation:
             "measurementMetric": "GM",
             "isMeat": false
         }
-    ],
+    ]
     "instructions": "boil and fry",
     "vegetarian": true
 }
