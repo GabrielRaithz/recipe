@@ -10,7 +10,8 @@
 
 Ingredient JSON example for creation:
 
-```[{
+```
+[{
     "name": "rice",
     "measurementMetric": "GM",
     "isMeat": false
